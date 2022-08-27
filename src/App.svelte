@@ -1,6 +1,7 @@
 <script lang="ts">
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
+import ServiceWorker from './lib/ServiceWorker.svelte'
 </script>
 
 <main>
@@ -16,6 +17,10 @@
 
   <div class="card">
     <Counter />
+  </div>
+
+  <div>
+    <ServiceWorker/>
   </div>
 
   <p>
