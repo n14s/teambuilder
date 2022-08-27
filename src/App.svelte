@@ -1,19 +1,17 @@
 <script lang="ts">
   import svelteLogo from './assets/svelte.svg'
+  import kjgLogo from './assets/kjg.jpg'
   import Counter from './lib/Counter.svelte'
 import ServiceWorker from './lib/ServiceWorker.svelte'
 </script>
 
 <main>
   <div>
-    <a href="https://vitejs.dev" target="_blank"> 
-      <img src="/vite.svg" class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank"> 
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
+    <a href="https://www.facebook.com/KjGGraben1/" target="_blank"> 
+      <img src={kjgLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div>
-  <h1>Vite + Svelte</h1>
+  <h1>Zuprteamz</h1>
 
   <div class="card">
     <Counter />
@@ -24,17 +22,14 @@ import ServiceWorker from './lib/ServiceWorker.svelte'
   </div>
 
   <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank">SvelteKit</a>, the official Svelte app framework powered by Vite!
+    Zuprteamz für Zuprleude
   </p>
 
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
 </main>
 
 <style>
   .logo {
-    height: 6em;
+    height: 20em;
     padding: 1.5em;
     will-change: filter;
   }
